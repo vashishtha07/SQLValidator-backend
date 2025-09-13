@@ -4,7 +4,7 @@ from sqlfluff.core import Linter
 import re
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Global variable to store selected DB type
 SELECTED_DB_TYPE = "mysql"  # default
