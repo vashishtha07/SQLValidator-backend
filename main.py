@@ -103,4 +103,4 @@ if __name__ == '__main__':
     #     SELECTED_DB_TYPE = "mysql"  # fallback
 
     print(f"✅ Using DB type: {SELECTED_DB_TYPE.upper()}")
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=8000)
